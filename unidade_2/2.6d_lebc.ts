@@ -1,4 +1,4 @@
-class Pessoa {
+class Pessoa_lebc {
     nome: string;
     genero: string;
 
@@ -8,7 +8,7 @@ class Pessoa {
     }
 }
 
-class Estudante extends Pessoa {
+class Estudante_lebc extends Pessoa_lebc {
     faculdade: string;
     curso: string;
 
@@ -23,8 +23,8 @@ class Estudante extends Pessoa {
     }
 }
 
-const estudante1 = new Estudante("João", "Masculino", "Universidade XYZ", "Engenharia");
+const estudante1 = new Estudante_lebc("João", "Masculino", "Universidade XYZ", "Engenharia");
 console.log(estudante1.apresentacao());
 
-const estudante2 = new Estudante("Maria", "Feminino", "Faculdade ABC", "Medicina");
+const estudante2 = new Estudante_lebc("Maria", "Feminino", "Faculdade ABC", "Medicina");
 console.log(estudante2.apresentacao());
