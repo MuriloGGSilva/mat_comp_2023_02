@@ -1,4 +1,4 @@
-class Veiculo {
+class Veiculo_lebc {
     protected latitude: number;
     protected longitude: number;
 
@@ -14,7 +14,7 @@ class Veiculo {
     }
 }
 
-class VeiculoEletrico extends Veiculo {
+class VeiculoEletrico_lebc extends Veiculo_lebc {
     private bateria: number;
 
     constructor(latitude: number, longitude: number, bateria: number) {
@@ -28,7 +28,7 @@ class VeiculoEletrico extends Veiculo {
     }
 }
 
-class VeiculoEletricoVoador extends VeiculoEletrico {
+class VeiculoEletricoVoador_lebc extends VeiculoEletrico_lebc {
     private altitude: number;
 
     constructor(latitude: number, longitude: number, bateria: number, altitude: number) {
