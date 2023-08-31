@@ -1,4 +1,4 @@
-class Fibonacci {
+class Fibonacci_lebc {
     private memo: Map<number, number> = new Map();
 
     calcularTermo(n: number): number {
@@ -16,7 +16,7 @@ class Fibonacci {
     }
 }
 
-const fibonacciCalculator = new Fibonacci();
+const fibonacciCalculator = new Fibonacci_lebc();
 
 console.log(fibonacciCalculator.calcularTermo(6)); // Exemplo de cálculo do termo 6
 console.log(fibonacciCalculator.calcularTermo(8)); // Exemplo de cálculo do termo 8
