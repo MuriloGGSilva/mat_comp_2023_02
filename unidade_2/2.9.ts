@@ -1,4 +1,4 @@
-class ProgressaoGeometrica {
+class ProgressaoGeometrica_lebc {
     constructor(private primeiroTermo: number, private razao: number) {}
 
     gerarTermos(n: number): number[] {
